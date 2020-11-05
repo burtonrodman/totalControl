@@ -1,0 +1,54 @@
+{
+  "ControlGroups": [
+    {
+      "Name": "Group 1",
+      "DeviceOrSession": "Microsoft Teams"
+    },
+    {
+      "Name": "Group 6",
+      "DeviceOrSession": "Dock"
+    },
+    {
+      "Name": "Group 7",
+      "DeviceOrSession": "Mpow"
+    },
+    {
+      "Name": "Group 8",
+      "DeviceOrSession": "Master"
+    }
+  ],
+  "CommandMappings": [
+    {
+      "ControlName": "FADER_\\d",
+      "Command": "ChangeOutVolume"
+    },
+    {
+      "ControlName": "KNOB_\\d",
+      "Command": "ChangeInVolume"
+    },
+    {
+      "ControlName": "MUTE_\\d",
+      "Command": "MuteOutVolume"
+    },
+    {
+      "ControlName": "SOLO_\\d",
+      "Command": "SelectControlGroup"
+    },
+    {
+      "ControlName": "ARM_\\d",
+      "Command": "ArmRecord"
+    },
+    {
+      "ControlName": "TRANSPORT_PLAY_PAUSE",
+      "Command": "PlayPauseTransport"
+    },
+    {
+      "ControlName": "TRACK_NEXT",
+      "Command": "TrackNext"
+    },
+    {
+      "ControlName": "TRANSPORT_STOP",
+      "Command": "StopTransport"
+    }
+  ]
+}

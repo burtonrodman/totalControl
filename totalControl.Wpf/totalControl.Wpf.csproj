@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\totalControl.Core\totalControl.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="*.commands" CopyToOutputDirectory="Always" />
+    <Content Include="*.controller" CopyToOutputDirectory="Always" />
+  </ItemGroup>
 </Project>
